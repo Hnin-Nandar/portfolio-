@@ -2,42 +2,9 @@
 text-background: #8a68ba; */
 
 * {
-  max-width: 800px;
-}
-
-
-.text {
-  margin: left;
-  max-width: 600px;
-  border: 1px solid rgb(58, 26, 68);
-  color: white;
-  border-radius: 10px;
-  padding: 0 40px;
-  background-color: #8a68ba;
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
-  height: 350px;
 }
 
 
-button {
-  border: 1px solid white;
-  padding: 10px;
-  border-radius: 50px;
-  margin: 5px;
-  color: white;
-  background-color: #8a68ba;
-}
-
-a {
-  text-decoration: none;
-  color: white;
-}
-
-a:hover,
-a:active {
-  font-size: 15px;
-}
-
-p {
-  margin-top: 80px;
-}
