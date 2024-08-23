@@ -1,0 +1,116 @@
+/* 
+    color: #E9DEFF
+    color: #0B001A
+    color: #FFFFFF
+    color: Linear
+    color: #170034
+    color: #1E0044
+    color: #AE9BCB */
+
+/* -----------REUSEABLE COMPONENT------ */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #170034;
+
+}
+
+.allBorder {
+    border: 20px solid #0B001A;
+    border-radius: 10px;
+    min-height: 100vh;
+}
+
+
+@font-face {
+    font-family: roboto;
+    src: url(../../../public/Roboto-Regular.ttf);
+}
+
+
+
+/* -----------MAIN NAV COMPONENT------ */
+.mainNav {
+    padding: 20px;
+    text-align: center;
+}
+
+.mainNav li {
+    display: inline-block;
+    padding: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #E9DEFF;
+}
+
+.mainNav li:first-child {
+    float: left;
+}
+
+.mainNav li:last-child {
+    float: right;
+}
+
+.Icon {
+    color: white;
+}
+
+.talkBtn {
+    border: 1px solid #AE9BCB;
+    border-radius: 20px;
+}
+
+.name {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: 100;
+    font-size: 150%;
+}
+
+
+
+/* -----------PARA COMPONENT------ */
+
+.beautiful {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-bottom: 2px solid #AE9BCB;
+    padding-bottom: 5px;
+    font-style: italic;
+    font-weight: 500;
+    background: linear-gradient(to bottom, #8338EC 0%, #B923FF 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+
+.title {
+    font-weight: 400;
+    font-family: roboto;
+    font-size: 400%;
+    color: #E9DEFF;
+    text-align: center;
+}
+
+h1 {
+    margin-top: 1.5em;
+}
+
+.text {
+    margin-top: 15px;
+    color: #E9DEFF;
+    font-family: roboto;
+    text-align: center;
+    font-size: 120%;
+}
+
+.bottomText {
+    color: #E9DEFF;
+    text-align: right;
+    padding: 20px;
+    margin-top: 110px;
+}
