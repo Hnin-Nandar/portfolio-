@@ -1,0 +1,54 @@
+.col3 {
+    flex: 1;
+    text-align: left;
+    padding: 30px;
+    margin-top: 40px;
+
+}
+
+.awardSection {
+    display: flex;
+    min-height: 100vh;
+    border: 20px solid #170034;
+    background-color: #E9DEFF;
+}
+
+/* #0B001A */
+
+.award {
+    color: #0B001A;
+    font-family: roboto;
+    font-size: 300%;
+}
+
+.row {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+.row p {
+    color: #1E0044;
+    font-family: roboto;
+}
+
+.row4 {
+    padding: 20px;
+    border-top: 1px solid #1E0044;
+}
+
+.row4:last-child {
+    border-bottom: 1px solid #1E0044;
+    margin: 0 0 20px 0;
+}
+
+.row4 h2 {
+    color: #1E0044;
+    font-family: roboto;
+}
+
+.icon3 {
+    float: right;
+    display: inline;
+}
