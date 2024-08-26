@@ -1,0 +1,51 @@
+.studySection {
+    display: flex;
+    min-height: 100vh;
+    background-color: #E9DEFF;
+    border: 20px solid #0B001A;
+
+}
+
+.col2 {
+    flex: 1;
+    text-align: left;
+    padding: 30px;
+}
+
+.studySection h1,
+h6,
+p {
+    color: black;
+}
+
+.studySection p {
+    margin-top: 17.5em;
+}
+
+
+.col2 ul li {
+    display: inline-block;
+    padding: 10px;
+    border: 1px solid #1E0044;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-right: 10px;
+    max-width: 300px;
+}
+
+.col2 ul li a,
+.col2 a {
+    text-decoration: none;
+    color: black;
+}
+
+.col2 img {
+    width: 600px;
+    height: 500px;
+}
+
+.text3 {
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    font-size: 90%;
+}

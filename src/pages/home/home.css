@@ -1,25 +1,23 @@
-/* 
-    color: #E9DEFF
-    color: #0B001A
-    color: #FFFFFF
-    color: Linear
-    color: #170034
-    color: #1E0044
-    color: #AE9BCB */
+/*  color: #E9DEFF lighter white
+    color: #0B001A dark
+    color: #FFFFFF white
+    color: #170034 violet
+    color: #1E0044 purple
+    color: #AE9BCB very light purple*/
 
 /* -----------REUSEABLE COMPONENT------ */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #170034;
-
+    color: #E9DEFF;
 }
+
 
 .allBorder {
     border: 20px solid #0B001A;
-    border-radius: 10px;
     min-height: 100vh;
+    background-color: #170034;
 }
 
 
@@ -54,9 +52,6 @@ a {
     float: right;
 }
 
-.Icon {
-    color: white;
-}
 
 .talkBtn {
     border: 1px solid #AE9BCB;
@@ -94,11 +89,9 @@ a {
     font-size: 400%;
     color: #E9DEFF;
     text-align: center;
-}
-
-h1 {
     margin-top: 1.5em;
 }
+
 
 .text {
     margin-top: 15px;
@@ -111,6 +104,7 @@ h1 {
 .bottomText {
     color: #E9DEFF;
     text-align: right;
-    padding: 20px;
-    margin-top: 110px;
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
 }

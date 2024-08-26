@@ -1,10 +1,16 @@
 import React from "react";
 import './App.css'
 import Home from "./pages/home";
+import Skill from './pages/skills';
+import Study from './pages/study';
 
 const App = () => {
   return (
-    <Home />
+    <div>
+      <Home />
+      <Skill />
+      <Study />
+    </div>
   )
 }
 
