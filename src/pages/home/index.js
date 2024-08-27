@@ -17,12 +17,28 @@ const Home = () => {
 
 const TopNav = () => {
   return (
+    // <ul className='mainNav'>
+    //   <li><a href='#' className='name'>Hnin Nandar</a></li>
+    //   <li><a href='#'>LINKEDIN</a><FaArrowTrendUp className='Icon' /></li>
+    //   <li><a href='#'>TWITTER</a><FaArrowTrendUp className='Icon' /></li>
+    //   <li><a href='#'>INSTAGRAM</a><FaArrowTrendUp className='Icon' /></li>
+    //   <li className='talkBtn'><a href='#'>Let's TALK</a><FaArrowTrendUp className='Icon' /></li>
+    // </ul>
     <ul className='mainNav'>
-      <li><a href='#' className='name'>Hnin Nandar</a></li>
-      <li><a href='#'>LINKEDIN</a><FaArrowTrendUp className='Icon' /></li>
-      <li><a href='#'>TWITTER</a><FaArrowTrendUp className='Icon' /></li>
-      <li><a href='#'>INSTAGRAM</a><FaArrowTrendUp className='Icon' /></li>
-      <li className='talkBtn'><a href='#'>Let's TALK</a><FaArrowTrendUp className='Icon' /></li>
+
+      <div >
+        <a href='#' className='name'>Hnin Nandar</a>
+      </div>
+
+      <div className='center-div'>
+        <a href='#'>LINKEDIN <FaArrowTrendUp className='Icon' /></a>
+        <a href='#'>TWITTER <FaArrowTrendUp className='Icon' /></a>
+        <a href='#'>INSTAGRAM <FaArrowTrendUp className='Icon' /></a>
+      </div>
+
+      <div className='talkBtn'>
+       <a href='#' >Let's TALK</a><FaArrowTrendUp className='Icon' />
+      </div>
     </ul>
   )
 }

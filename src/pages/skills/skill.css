@@ -10,10 +10,12 @@
 /* -----------TEXT COMPONENT------ */
 
 .container {
-    display: flex;
     background: linear-gradient(to right, #8338EC 0%, #B923FF);
-    max-height: 55vh;
 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: start;
 }
 
 .col {
@@ -23,15 +25,6 @@
     border: 20px solid #0B001A;
     /* box-shadow: 0 0 30px inset #0B001A; */
 
-}
-
-.span1 {
-    border-right: 10px solid #0B001A;
-
-}
-
-.span2 {
-    border-left: 10px solid #0B001A;
 }
 
 .text2 {
@@ -66,3 +59,10 @@ a {
 
 
 /* -----------KORA COMPONENT------ */
+
+
+@media screen and (max-width: 760px) {
+    .container{
+        flex-direction: column;
+    }
+}

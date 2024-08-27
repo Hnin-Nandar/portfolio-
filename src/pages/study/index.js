@@ -20,10 +20,13 @@ const Study = () => {
                         <li><a href='#'><span className='text3'>SEE CASE STUDY</span></a><GoArrowUpRight stroke='#170034' fill='#170034' size='0.8em' /></li>
                     </ul>
                 </div>
-                <div className='col2 '>
-                    <img src={myImage} alt='butterfly' />
+                <div className='imgContainer'>
+                    <img 
+                        src={myImage} alt='butterfly'
+                    />
                 </div>
             </div>
+
             <div className='studySection2'>
                 <div className='col2'>
                     <h6>CASE STUDY</h6>
@@ -38,7 +41,9 @@ const Study = () => {
                     </ul>
                 </div>
                 <div className='col2 '>
-                    <img src={myImage2} alt='flower' />
+                    <img 
+                        src={myImage2} alt='flower' 
+                    />
                 </div>
             </div>
 

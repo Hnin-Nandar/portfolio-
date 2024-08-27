@@ -32,9 +32,41 @@
 .mainNav {
     padding: 20px;
     text-align: center;
+    width: 100%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.mainNav li {
+a {
+    color: #E9DEFF ;
+    font-size: 18px;
+}
+
+.center-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.talkBtn {
+    border: 1px solid #AE9BCB;
+    border-radius: 20px;
+    padding: 8px 12px ;
+}
+
+.name {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: 100;
+    font-size: 24px;
+}
+
+/* .mainNav li {
     display: inline-block;
     padding: 10px;
 }
@@ -58,12 +90,7 @@ a {
     border-radius: 20px;
 }
 
-.name {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-style: italic;
-    font-weight: 100;
-    font-size: 150%;
-}
+ */
 
 
 
@@ -107,4 +134,23 @@ a {
     position: absolute;
     bottom: 30px;
     right: 30px;
+}
+
+
+@media screen and (max-width: 760px) {
+    .name{
+        font-size: 18px;
+    }
+
+    a{
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    /* your hoem work */
+}
+
+@media screen and (max-width: 400px) {
+    /* your hoem work */
 }
