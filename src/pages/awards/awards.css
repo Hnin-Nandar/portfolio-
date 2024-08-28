@@ -2,14 +2,11 @@
     flex: 1;
     text-align: left;
     padding: 30px;
-    margin-top: 40px;
-
+    margin-top: 30px;
 }
 
 .awardSection {
     display: flex;
-    min-height: 100vh;
-    border: 20px solid #170034;
     background-color: #E9DEFF;
 }
 
@@ -18,13 +15,13 @@
 .award {
     color: #0B001A;
     font-family: roboto;
-    font-size: 300%;
+    font-size: 4em;
 }
 
 .row {
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 10px;
 }
 
 
@@ -51,4 +48,53 @@
 .icon3 {
     float: right;
     display: inline;
+}
+
+@media screen and (max-width: 760px) {
+    .row h2 {
+        font-size: 1em;
+    }
+
+    .award {
+        font-size: 3em;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .row {
+        gap: 5px;
+    }
+
+    .col3 {
+        padding: 15px;
+        margin-top: 16px;
+    }
+
+    .row p {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .col3 {
+        padding: 10px;
+        margin-top: 10px;
+    }
+
+    .row h2 {
+        font-size: 0.7em;
+    }
+
+    .award {
+        font-size: 2em;
+    }
+
+    .row p {
+        font-size: 10px;
+    }
+
+    .row4>svg {
+        size: 2em;
+    }
+
 }

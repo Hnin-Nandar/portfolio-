@@ -15,11 +15,19 @@
 
 
 .allBorder {
-    border: 20px solid #0B001A;
-    min-height: 100vh;
+    /* border: 20px solid ; */
+
     background-color: #170034;
+    border-radius: 15px;
+    min-height: 96vh;
 }
 
+.border {
+    border-left: 16px solid #0B001A;
+    border-right: 16px solid #0B001A;
+    border-top: 16px solid #0B001A;
+
+}
 
 @font-face {
     font-family: roboto;
@@ -41,7 +49,7 @@
 }
 
 a {
-    color: #E9DEFF ;
+    color: #E9DEFF;
     font-size: 18px;
 }
 
@@ -56,7 +64,7 @@ a {
 .talkBtn {
     border: 1px solid #AE9BCB;
     border-radius: 20px;
-    padding: 8px 12px ;
+    padding: 8px 12px;
 }
 
 .name {
@@ -65,32 +73,6 @@ a {
     font-weight: 100;
     font-size: 24px;
 }
-
-/* .mainNav li {
-    display: inline-block;
-    padding: 10px;
-}
-
-a {
-    text-decoration: none;
-    color: #E9DEFF;
-}
-
-.mainNav li:first-child {
-    float: left;
-}
-
-.mainNav li:last-child {
-    float: right;
-}
-
-
-.talkBtn {
-    border: 1px solid #AE9BCB;
-    border-radius: 20px;
-}
-
- */
 
 
 
@@ -113,8 +95,7 @@ a {
 .title {
     font-weight: 400;
     font-family: roboto;
-    font-size: 400%;
-    color: #E9DEFF;
+    font-size: 6em;
     text-align: center;
     margin-top: 1.5em;
 }
@@ -122,14 +103,12 @@ a {
 
 .text {
     margin-top: 15px;
-    color: #E9DEFF;
     font-family: roboto;
     text-align: center;
-    font-size: 120%;
+    font-size: 20px;
 }
 
 .bottomText {
-    color: #E9DEFF;
     text-align: right;
     position: absolute;
     bottom: 30px;
@@ -138,19 +117,64 @@ a {
 
 
 @media screen and (max-width: 760px) {
-    .name{
+    .name {
         font-size: 18px;
     }
 
-    a{
+    a {
         font-size: 13px;
+    }
+
+    .title {
+        font-size: 4em;
     }
 }
 
 @media screen and (max-width: 600px) {
-    /* your hoem work */
+    .name {
+        font-size: 16px;
+    }
+
+    a {
+        font-size: 12px;
+    }
+
+    .title {
+        font-size: 3em;
+        margin-top: 100px;
+    }
+
+    .text {
+        font-size: 16px;
+        margin-top: 20px;
+    }
 }
 
 @media screen and (max-width: 400px) {
-    /* your hoem work */
+    .name {
+        font-size: 16px;
+    }
+
+    a {
+        font-size: 12px;
+    }
+
+    .title {
+        font-size: 2em;
+        margin-top: 100px;
+    }
+
+    .text {
+        font-size: 12px;
+        margin-top: 20px;
+    }
+
+    .center-div {
+
+        padding: 15px 0;
+    }
+
+    .mainNav {
+        flex-direction: column;
+    }
 }

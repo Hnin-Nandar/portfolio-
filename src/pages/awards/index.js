@@ -4,7 +4,7 @@ import { GoArrowUpRight } from "react-icons/go";
 
 const Award = () => {
     return (
-        <div className="awardSection">
+        <div className="awardSection border">
             <div className="col3">
                 <h1 className="award">Awards</h1>
             </div>

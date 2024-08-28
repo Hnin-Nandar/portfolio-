@@ -1,12 +1,12 @@
 import React from 'react';
 import './study.css';
 import myImage from './unnamed.jpg';
-import myImage2 from './images.jpg';
+import myImage2 from './flower.jpg';
 import { GoArrowUpRight } from "react-icons/go";
 
 const Study = () => {
     return (
-        <div >
+        <div className='border'>
             <div className='studySection1'>
                 <div className='col2'>
                     <h6>CASE STUDY</h6>
@@ -15,13 +15,13 @@ const Study = () => {
                         <li><a href='#'>Web design</a></li>
                         <li><a href='#'>Development</a></li>
                     </ul>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.<br /> Repellat veniam accusantium ab officia vitae odit est<br /> explicabo, amet sequi ullam cumque tempora maiores debitis<br /> labore quaerat laborum. Quasi, facere temporibus.</p>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat veniam accusantium ab officia vitae odit est explicabo, amet sequi ullam cumque tempora maiores debitis labore quaerat laborum. Quasi, facere temporibus.</p>
                     <ul>
-                        <li><a href='#'><span className='text3'>SEE CASE STUDY</span></a><GoArrowUpRight stroke='#170034' fill='#170034' size='0.8em' /></li>
+                        <li className='text3'><a href='#'>SEE CASE STUDY<GoArrowUpRight stroke='#170034' fill='#170034' size='0.8em' /></a></li>
                     </ul>
                 </div>
-                <div className='imgContainer'>
-                    <img 
+                <div className='imgContainer col2'>
+                    <img
                         src={myImage} alt='butterfly'
                     />
                 </div>
@@ -35,14 +35,14 @@ const Study = () => {
                         <li><a href='#'>Concept design</a></li>
                         <li><a href='#'>Brand Identity</a></li>
                     </ul>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.<br /> Repellat veniam accusantium ab officia vitae odit est<br /> explicabo, amet sequi ullam cumque tempora maiores debitis<br /> labore quaerat laborum. Quasi, facere temporibus.</p>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat veniam accusantium ab officia vitae odit est explicabo, amet sequi ullam cumque tempora maiores debitis labore quaerat laborum. Quasi, facere temporibus.</p>
                     <ul>
-                        <li><a href='#'><span className='text4'>SEE CASE STUDY</span></a><GoArrowUpRight stroke='#E9DEFF' fill='#E9DEFF' size='0.8em' /></li>
+                        <li className='text4'><a href='#'>SEE CASE STUDY</a><GoArrowUpRight stroke='#E9DEFF' fill='#E9DEFF' size='0.8em' /></li>
                     </ul>
                 </div>
-                <div className='col2 '>
-                    <img 
-                        src={myImage2} alt='flower' 
+                <div className='col2 imgContainer'>
+                    <img
+                        src={myImage2} alt='flower'
                     />
                 </div>
             </div>

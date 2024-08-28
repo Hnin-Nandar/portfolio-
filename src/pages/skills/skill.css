@@ -16,15 +16,30 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: start;
+    border-top: 16px solid #0B001A;
+    border-left: 16px solid #0B001A;
+    border-right: 16px solid #0B001A;
+
 }
 
 .col {
     flex: 1;
     text-align: left;
     padding: 30px;
-    border: 20px solid #0B001A;
-    /* box-shadow: 0 0 30px inset #0B001A; */
 
+}
+
+
+
+.midBorder {
+    border-right: 8px solid #0B001A;
+    border-radius: 15px;
+
+}
+
+.midBorder2 {
+    border-left: 8px solid #0B001A;
+    border-radius: 15px;
 }
 
 .text2 {
@@ -46,23 +61,42 @@ a {
     color: #E9DEFF;
 }
 
+@media screen and (max-width: 760px) {
+    .container {
+        flex-direction: column;
+    }
 
+    .midBorder {
+        border-bottom: 8px solid #0B001A;
+        border-radius: 15px;
+        border-right: 0;
 
-.inner-border-box {
-    width: 200px;
-    height: 200px;
-    position: relative;
-    border-radius: 20px;
-    box-shadow: inset 0 0 0 5px #0B001A;
+    }
+
+    .midBorder2 {
+        border-top: 8px solid #0B001A;
+        border-radius: 15px;
+        border-left: 0;
+    }
 }
 
+@media screen and (max-width: 600px) {
+    .container h1 {
+        font-size: 2em;
+    }
+}
 
+@media screen and (max-width: 400px) {
+    .container h1 {
+        font-size: 1.5em;
+    }
 
-/* -----------KORA COMPONENT------ */
+    .container p {
+        font-size: 13px;
+    }
 
+    a {
+        font-size: 13px;
 
-@media screen and (max-width: 760px) {
-    .container{
-        flex-direction: column;
     }
 }
