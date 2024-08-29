@@ -10,16 +10,11 @@
 /* -----------TEXT COMPONENT------ */
 
 .container {
-    background: linear-gradient(to right, #8338EC 0%, #B923FF);
-
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: start;
-    border-top: 16px solid #0B001A;
-    border-left: 16px solid #0B001A;
-    border-right: 16px solid #0B001A;
-
+    gap: 16px;
 }
 
 .col {
@@ -29,17 +24,14 @@
 
 }
 
-
-
 .midBorder {
-    border-right: 8px solid #0B001A;
     border-radius: 15px;
-
+    background: linear-gradient(to right, #8338EC 0%, #B923FF);
 }
 
 .midBorder2 {
-    border-left: 8px solid #0B001A;
     border-radius: 15px;
+    background: linear-gradient(to right, #8338EC 0%, #B923FF);
 }
 
 .text2 {

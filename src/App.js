@@ -8,7 +8,7 @@ import Contact from './pages/contact';
 
 const App = () => {
   return (
-    <div>
+    <div className="main">
       <Home />
       <Skill />
       <Study />

@@ -13,22 +13,12 @@ p {
     color: #E9DEFF;
 }
 
-.allBorder {
-    /* border: 20px solid ; */
-
-    background-color: #170034;
-    border-radius: 15px;
-    min-height: 96vh;
-}
-
 .home {
     position: relative;
+    width: 100%;
 }
 
-.border {
-    background-color: #0B001A;
-    padding: 16px;
-}
+
 
 @font-face {
     font-family: roboto;
@@ -52,6 +42,11 @@ p {
 a {
     color: #E9DEFF;
     font-size: 18px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
 }
 
 .center-div {
@@ -66,6 +61,7 @@ a {
     border: 1px solid #AE9BCB;
     border-radius: 20px;
     padding: 8px 12px;
+    color: #E9DEFF;
 }
 
 .name {
@@ -129,6 +125,10 @@ a {
     .title {
         font-size: 4em;
         margin-top: 1.7em;
+    }
+
+    .center-div{
+        flex-direction: column;
     }
 }
 

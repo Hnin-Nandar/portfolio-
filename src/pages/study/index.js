@@ -1,12 +1,11 @@
 import React from 'react';
 import './study.css';
-import myImage from './unnamed.jpg';
-import myImage2 from './flower.jpg';
 import { GoArrowUpRight } from "react-icons/go";
+import { myImage, myImage2 } from '../../assets';
 
 const Study = () => {
     return (
-        <div className='border'>
+        <div className='study'>
             <div className='studySection1'>
                 <div className='col2'>
                     <h6>CASE STUDY</h6>

@@ -7,4 +7,22 @@ text-background: #8a68ba; */
   box-sizing: border-box;
 }
 
+.main{
+  background-color: #0B001A;
+  padding: 16px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+
+.allBorder {
+  /* border: 20px solid ; */
+
+  background-color: #170034;
+  border-radius: 15px;
+  min-height: 96vh;
+}
 
