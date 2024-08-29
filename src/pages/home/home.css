@@ -8,10 +8,6 @@
 /* -----------REUSEABLE COMPONENT------ */
 
 
-h1,
-p {
-    color: #E9DEFF;
-}
 
 .home {
     position: relative;
@@ -28,34 +24,7 @@ p {
 
 
 /* -----------MAIN NAV COMPONENT------ */
-.mainNav {
-    padding: 20px;
-    text-align: center;
-    width: 100%;
 
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-}
-
-a {
-    color: #E9DEFF;
-    font-size: 18px;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 4px;
-}
-
-.center-div {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-}
 
 .talkBtn {
     border: 1px solid #AE9BCB;
@@ -71,6 +40,10 @@ a {
     font-size: 24px;
 }
 
+
+.icon {
+    display: none;
+}
 
 
 /* -----------PARA COMPONENT------ */
@@ -127,7 +100,7 @@ a {
         margin-top: 1.7em;
     }
 
-    .center-div{
+    .center-div {
         flex-direction: column;
     }
 }
@@ -179,4 +152,14 @@ a {
     .mainNav {
         flex-direction: column;
     }
+
+    .center-text {
+        display: none;
+    }
+
+    .icon {
+        display: inline;
+    }
+
+
 }

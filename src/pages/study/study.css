@@ -1,6 +1,6 @@
 /* -----------STUDY SECTION ONE---------- */
 
-.study{
+.study {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -71,6 +71,9 @@
 .text3 {
     font-family: 'Times New Roman', Times, serif;
     color: #170034;
+    border: 1px solid #1E0044;
+    padding: 8px;
+    border-radius: 15px;
     font-size: 15px;
     position: absolute;
     bottom: 30px;
@@ -120,6 +123,18 @@
     bottom: 80px;
     left: 0;
     font-size: 20px;
+}
+
+.text4 {
+    font-family: 'Times New Roman', Times, serif;
+    color: #E9DEFF;
+    border: 1px solid #E9DEFF;
+    padding: 8px;
+    border-radius: 15px;
+    font-size: 15px;
+    position: absolute;
+    bottom: 30px;
+    left: 0;
 }
 
 
@@ -180,5 +195,31 @@
 
     .studySection2 p {
         font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .studySection1 h1 {
+        font-size: 1.5em;
+    }
+
+    .studySection1 p {
+        font-size: 10px;
+    }
+
+    .studySection2 h1 {
+        font-size: 1.5em;
+    }
+
+    .studySection2 p {
+        font-size: 10px;
+    }
+
+    .text3,
+    .text4 {
+        padding: 2px;
+        width: 50%;
+        font-size: 10px;
+        margin-top: 5px;
     }
 }

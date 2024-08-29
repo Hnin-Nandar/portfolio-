@@ -7,7 +7,7 @@ text-background: #8a68ba; */
   box-sizing: border-box;
 }
 
-.main{
+.main {
   background-color: #0B001A;
   padding: 16px;
 
@@ -19,10 +19,43 @@ text-background: #8a68ba; */
 }
 
 .allBorder {
-  /* border: 20px solid ; */
-
   background-color: #170034;
   border-radius: 15px;
   min-height: 96vh;
 }
 
+
+
+.mainNav {
+  padding: 20px;
+  text-align: center;
+  width: 100%;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+a {
+  color: #E9DEFF;
+  font-size: 18px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+}
+
+.center-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+h1,
+p {
+  color: #E9DEFF;
+}

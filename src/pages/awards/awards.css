@@ -10,6 +10,8 @@
     display: flex;
     background-color: #E9DEFF;
     flex-direction: row;
+    width: 100%;
+    border-radius: 15px;
 }
 
 /* #0B001A */

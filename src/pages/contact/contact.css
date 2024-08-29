@@ -1,5 +1,6 @@
 .contact {
     position: relative;
+
 }
 
 
@@ -15,6 +16,6 @@
     left: 20px;
 }
 
-.bottom {
-    border-bottom: 16px solid #0B001A;
+.contact-section {
+    width: 100%;
 }
