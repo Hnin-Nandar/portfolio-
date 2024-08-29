@@ -3,11 +3,13 @@
     text-align: left;
     padding: 30px;
     margin-top: 30px;
+
 }
 
 .awardSection {
     display: flex;
     background-color: #E9DEFF;
+    flex-direction: row;
 }
 
 /* #0B001A */
@@ -71,7 +73,7 @@
     }
 
     .row p {
-        font-size: 20px;
+        font-size: 15px;
     }
 }
 
@@ -82,7 +84,7 @@
     }
 
     .row h2 {
-        font-size: 0.7em;
+        font-size: 1em;
     }
 
     .award {
@@ -90,11 +92,10 @@
     }
 
     .row p {
-        font-size: 10px;
+        font-size: 15px;
     }
 
-    .row4>svg {
-        size: 2em;
+    .awardSection {
+        flex-direction: column;
     }
-
 }

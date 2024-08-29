@@ -1,0 +1,20 @@
+.contact {
+    position: relative;
+}
+
+
+.bottomText3 {
+    position: absolute;
+    bottom: 30px;
+    right: 20px;
+}
+
+.bottomText2 {
+    position: absolute;
+    bottom: 30px;
+    left: 20px;
+}
+
+.bottom {
+    border-bottom: 16px solid #0B001A;
+}

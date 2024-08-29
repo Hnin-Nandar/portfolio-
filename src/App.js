@@ -3,7 +3,8 @@ import './App.css'
 import Home from "./pages/home";
 import Skill from './pages/skills';
 import Study from './pages/study';
-import Award from './pages/awards'
+import Award from './pages/awards';
+import Contact from './pages/contact';
 
 const App = () => {
   return (
@@ -12,6 +13,7 @@ const App = () => {
       <Skill />
       <Study />
       <Award />
+      <Contact />
     </div>
   )
 }

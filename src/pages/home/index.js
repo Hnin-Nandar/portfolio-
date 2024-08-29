@@ -6,7 +6,7 @@ import './home.css'
 const Home = () => {
   return (
     <div className='border'>
-      <div className='allBorder'>
+      <div className='allBorder home'>
         <TopNav />
         <h1 className='title'>I create <span className='beautiful'>beautiful</span> <br /> experiences</h1>
         <p className='text'>I work with people all over the world to create <br />tailor-made webflow experiences</p>
