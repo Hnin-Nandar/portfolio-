@@ -19,13 +19,13 @@ const TopNav = () => {
   return (
     <div className='mainNav'>
       <div>
-        <a href='#' className='name'>Hnin Nandar</a>
+        <a href='https://www.google.com' className='name'>Hnin Nandar</a>
       </div>
 
       <div className='center-div'>
-        <a href='#'>LINKEDIN <FaArrowTrendUp className='Icon' /></a>
-        <a href='#'>TWITTER <FaArrowTrendUp className='Icon' /></a>
-        <a href='#'>INSTAGRAM <FaArrowTrendUp className='Icon' /></a>
+        <a href='https://www.google.com'>LINKEDIN <FaArrowTrendUp className='Icon' /></a>
+        <a href='https://www.google.com'>TWITTER <FaArrowTrendUp className='Icon' /></a>
+        <a href='https://www.google.com'>INSTAGRAM <FaArrowTrendUp className='Icon' /></a>
       </div>
     </div>
   )
