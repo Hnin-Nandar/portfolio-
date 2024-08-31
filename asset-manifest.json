@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/portfolio-/static/css/main.0ec6cfa5.css",
+    "main.js": "/portfolio-/static/js/main.389225e2.js",
+    "static/media/unnamed.jpg": "/portfolio-/static/media/unnamed.94b50dcc75c83423a8b8.jpg",
+    "static/media/Roboto-Regular.ttf": "/portfolio-/static/media/Roboto-Regular.27f62b53b93858475a7f.ttf",
+    "static/media/flower.jpg": "/portfolio-/static/media/flower.452ead5432f5ce329dc5.jpg",
+    "index.html": "/portfolio-/index.html",
+    "main.0ec6cfa5.css.map": "/portfolio-/static/css/main.0ec6cfa5.css.map",
+    "main.389225e2.js.map": "/portfolio-/static/js/main.389225e2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0ec6cfa5.css",
+    "static/js/main.389225e2.js"
+  ]
+}
