@@ -6,6 +6,7 @@
     justify-content: center;
     align-items: center;
     gap: 16px;
+    width: 100%;
 }
 
 .studySection1 {
@@ -25,10 +26,11 @@
 
 .imgContainer {
     flex: 1;
+    text-align: right;
 }
 
 .imgContainer>img {
-    width: 100%;
+    width: 50%;
     border-radius: 20px;
 }
 
@@ -137,7 +139,20 @@
     left: 0;
 }
 
+@media screen and (max-width:1009px) {
 
+    .studySection1 p,
+    .text3 {
+        position: static;
+        padding: 5px;
+    }
+
+    .studySection2 p,
+    .text4 {
+        position: static;
+        padding: 5px;
+    }
+}
 
 @media screen and (max-width: 760px) {
     .studySection1 {

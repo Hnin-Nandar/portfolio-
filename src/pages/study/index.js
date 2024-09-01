@@ -14,7 +14,7 @@ const Study = () => {
                         <li><a href='https://www.google.com'>Web design</a></li>
                         <li><a href='https://www.google.com'>Development</a></li>
                     </ul>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat veniam accusantium ab officia vitae odit est explicabo, amet sequi ullam cumque tempora maiores debitis labore quaerat laborum. Quasi, facere temporibus.</p>
+                    <p>I am always looking for new challenges to push my skills further.</p>
                     <a className='text3' href='https://www.google.com'>SEE CASE STUDY<GoArrowUpRight stroke='#170034' fill='#170034' size='0.8em' /></a>
                 </div>
                 <div className='imgContainer col2'>
@@ -32,7 +32,7 @@ const Study = () => {
                         <li><a href='https://www.google.com'>Concept design</a></li>
                         <li><a href='https://www.google.com'>Brand Identity</a></li>
                     </ul>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat veniam accusantium ab officia vitae odit est explicabo, amet sequi ullam cumque tempora maiores debitis labore quaerat laborum. Quasi, facere temporibus.</p>
+                    <p>With a strong collaborative spirit and a passion for innovation, I bring a creative approach to every project I work on.</p>
                     <a className='text4' href='https://www.google.com'>SEE CASE STUDY<GoArrowUpRight stroke='#E9DEFF' fill='#E9DEFF' size='0.8em' /></a>
                 </div>
                 <div className='col2 imgContainer'>

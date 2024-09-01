@@ -3,6 +3,20 @@
 
 }
 
+.contact h1 {
+    text-align: center;
+    color: #E9DEFF;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: 4em;
+    font-weight: 500;
+    background: linear-gradient(to bottom, #8338EC 0%, #B923FF 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 0.5em 0 0.5em;
+}
+
 
 .bottomText3 {
     position: absolute;
@@ -18,4 +32,89 @@
 
 .contact-section {
     width: 100%;
+}
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    max-width: 60%;
+    margin: 0 auto;
+}
+
+.contact form div {
+    margin-bottom: 1em;
+}
+
+.contact label {
+    margin-bottom: 0.5em;
+    color: #E9DEFF;
+    font-size: 2em;
+
+}
+
+.contact input,
+.contact textarea {
+    display: inline;
+    width: 100%;
+    border: 1px solid #8338EC;
+    border-radius: 5px;
+}
+
+.contact label strong {
+    display: inline-flex;
+}
+
+.contact button {
+    font-size: 10px;
+    padding: 10px;
+    border: none;
+    background-color: #8338EC;
+    color: #E9DEFF;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #170034;
+    border: 2px solid #8338EC;
+
+}
+
+@media screen and (max-width: 760px) {
+    .contact h1 {
+        font-size: 3em;
+    }
+
+    .contact label {
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .contact h1 {
+        font-size: 2.5em;
+    }
+
+    .contact label {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .contact h1 {
+        font-size: 2em;
+    }
+
+    .contact label {
+        font-size: 16px;
+    }
+
+    .contact button {
+        font-size: 16px;
+        padding: 5px;
+    }
 }

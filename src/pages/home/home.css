@@ -33,13 +33,6 @@
     color: #E9DEFF;
 }
 
-.name {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-style: italic;
-    font-weight: 100;
-    font-size: 24px;
-}
-
 
 .icon {
     display: none;
@@ -60,6 +53,13 @@
     -webkit-text-fill-color: transparent;
 }
 
+.name {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: 100;
+    font-size: 24px;
+    text-decoration: none;
+}
 
 
 .title {

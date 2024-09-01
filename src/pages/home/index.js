@@ -1,9 +1,10 @@
 import React from 'react';
-import './home.css'
+import './home.css';
 import { FaArrowTrendUp } from "react-icons/fa6";
 import { IoLogoInstagram } from "react-icons/io5";
 import { AiFillLinkedin } from "react-icons/ai";
-import { FaTwitter } from "react-icons/fa6";
+import { FaFacebookSquare } from "react-icons/fa";
+import { SiGmail } from "react-icons/si";
 
 
 
@@ -26,13 +27,13 @@ const TopNav = () => {
       </div>
 
       <div className='center-div'>
-        <a href='https://www.google.com'><span className='center-text'>LINKEDIN <FaArrowTrendUp /></span><AiFillLinkedin className='icon' size='2em' /></a>
-        <a href='https://www.google.com'><span className='center-text'>TWITTER <FaArrowTrendUp /></span><FaTwitter className='icon' size='2em' /></a>
-        <a href='https://www.google.com'><span className='center-text'>INSTAGRAM <FaArrowTrendUp /></span><IoLogoInstagram className='icon' size='2em' /></a>
+        <a href='https://www.linkedin.com/in/hnin-nandar-29b418277?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app'><span className='center-text'>LINKEDIN <FaArrowTrendUp /></span><AiFillLinkedin className='icon' size='2em' /></a>
+        <a href='https://www.facebook.com/hnin.nandar.khin2000?mibextid=ZbWKwL'><span className='center-text'>FACEBOOK <FaArrowTrendUp /></span><FaFacebookSquare className='icon' size='2em' /></a>
+        <a href='https://www.threads.net/@hnin_nandar.khin'><span className='center-text'>INSTAGRAM <FaArrowTrendUp /></span><IoLogoInstagram className='icon' size='2em' /></a>
       </div>
 
       <div className='talkBtn'>
-        <a href='https://www.google.com' >Let's TALK <FaArrowTrendUp /></a>
+        <a href='https://t.me/yourusername/@hnin_nandar_khin_1' >Let's TALK <FaArrowTrendUp /></a>
       </div>
     </div>
   )

@@ -6,30 +6,16 @@ const Skill = () => {
     <div className='container'>
       <div class="midBorder">
         <div className='col'>
-          <h1>Development</h1>
-          <p className='text2'>I specialize in developing websites using Webflow, a powerful platform that allows for easy customization and responsive design. I have experience builing websites for a variety of industries, from small business to large corporations. My focus is always on creating functional and smooth websites that are accessible and generate traffic.</p>
-          <ul>
-            <li>
-              <span><a href='https://www.google.com'>Webflow</a></span>
-            </li>
-            <li>
-              <span><a href='https://www.google.com'>Development</a></span>
-            </li>
-          </ul>
+          <h1>My portfolio</h1>
+          <p className='text2'>I specialize in React and have a proven track record of delivering clean, user-friendly interfaces that drive engagement and achieve results. My focus is always on creating functional and smooth websites.</p>
+          <a href='https://hnin-nandar.github.io/portfolio-/'>REACT</a>
         </div>
       </div>
       <div class="midBorder2">
         <div className='col'>
-          <h1>Art direction</h1>
-          <p className='text2'>Art direction is the process of bringing together all of the creative elements of a project to create a cohesive and visually stunning end product. I work with clients to develop a concept and bring it to life through art direction. I believe that attention to detail and a clear vision are key to creating truly memorable designs.</p>
-          <ul>
-            <li>
-              <span><a href='https://www.google.com'>concept design</a></span>
-            </li>
-            <li>
-              <span><a href='https://www.google.com'>Brand identity</a></span>
-            </li>
-          </ul>
+          <h1>My HTML project</h1>
+          <p className='text2'>I also studied in developing websites using HTML(A markup language used to create web pages and applications) and CSS(To style web pages). I have experiences building websites by studying.</p>
+          <a href='https://hnin-nandar.github.io/my-html-project/'>HTML</a>
         </div>
       </div>
 

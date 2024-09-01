@@ -37,20 +37,16 @@
 .text2 {
     margin-top: 100px;
     color: #E9DEFF;
+    padding-bottom: 10px;
 }
 
-.col ul li {
-    display: inline-block;
-    padding: 10px;
-    border: 1px solid #E9DEFF;
-    border-radius: 20px;
-    margin-top: 10px;
-    margin-right: 10px;
-}
-
-a {
+.col a {
     text-decoration: none;
     color: #E9DEFF;
+    border: 1px solid #E9DEFF;
+    border-radius: 20px;
+    padding: 10px;
+    display: inline-block;
 }
 
 @media screen and (max-width: 760px) {

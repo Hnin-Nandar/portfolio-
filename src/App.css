@@ -40,7 +40,7 @@ text-background: #8a68ba; */
 a {
   color: #E9DEFF;
   font-size: 18px;
-
+  text-decoration: none;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -52,8 +52,10 @@ a {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  gap: 10px;
+  gap: 15px;
 }
+
+
 
 h1,
 p {
